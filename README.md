@@ -12,7 +12,28 @@ When using Tensorflow locally you'll need to have Python 3 installed. The curren
 
 When running tensorflow, you want to have control of the python and package version numbers, and so I recommend downloading [Install Anaconda for Windows 64bit](https://www.anaconda.com/download/). You must have a 64bit version of Python to run Tensorflow from what i've researched, and of course to install a 64bit version of Python you need to have a 64 bit version of windows. [How to check if you have 64 bit Windows](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
 
-Now that you have Anaconda installed, you can confirm this by typing >conda --version
+Now that you have Anaconda installed, you can confirm this by typing
+
+> conda --version
+> And you should see the version.
+
+## 2. Create Tensorflow Environment
+
+You want to create an Anaconda virtual environment on which to run Tensorflow.
+
+`conda create -n tensorflow-gpu python=3.5.2`
+
+You can confirm that you've created it with
+
+`conda env list
+
+# conda environments:
+
+#
+
+base \* C:\Users\Admin\Anaconda3
+tensorflow-gpu C:\Users\Admin\Anaconda3\envs\tensorflow-gpu
+`
 
 (below are syntax templates im saving for when I need them)
 
