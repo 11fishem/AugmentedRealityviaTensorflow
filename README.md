@@ -25,7 +25,8 @@ You want to create an Anaconda virtual environment on which to run Tensorflow.
 
 You can confirm that you've created it with
 
-```conda env list
+```
+conda env list
 
 # conda environments:
 
