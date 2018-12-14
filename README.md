@@ -14,8 +14,8 @@ When running tensorflow, you want to have control of the python and package vers
 
 Now that you have Anaconda installed, you can confirm this by typing
 
-> conda --version
-> And you should see the version.
+`conda --version`
+And you should see the version.
 
 ## 2. Create Tensorflow Environment
 

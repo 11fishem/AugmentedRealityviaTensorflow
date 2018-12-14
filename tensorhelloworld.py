@@ -15,4 +15,4 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 
 # Run the op
-print("hello")
+print(sess.run(hello))
