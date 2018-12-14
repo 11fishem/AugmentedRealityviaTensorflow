@@ -10,7 +10,9 @@ Greetings! This is my github repo for handling AR/Computer Vision with Tensorflo
 
 When using Tensorflow locally you'll need to have Python 3 installed. The current version of Python 3 that works with Tensorflow on Windows in 3.5, but that will likely change throughout this project.
 
-When running tensorflow, you want to have control of the python and package version numbers, and so I recommend downloading [Anaconda for Windows 64bit](https://www.anaconda.com/download/). You must have a 64bit version of Python to run Tensorflow from what i've researched, and of course to install a 64bit version of Python you need to have a 64 bit version of windows. [Check if you have 64 bit Windows](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
+When running tensorflow, you want to have control of the python and package version numbers, and so I recommend downloading [Install Anaconda for Windows 64bit](https://www.anaconda.com/download/). You must have a 64bit version of Python to run Tensorflow from what i've researched, and of course to install a 64bit version of Python you need to have a 64 bit version of windows. [How to check if you have 64 bit Windows](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
+
+Now that you have Anaconda installed, you can confirm this by typing >conda --version
 
 (below are syntax templates im saving for when I need them)
 
