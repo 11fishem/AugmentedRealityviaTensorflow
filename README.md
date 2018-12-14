@@ -25,7 +25,7 @@ You want to create an Anaconda virtual environment on which to run Tensorflow.
 
 You can confirm that you've created it with
 
-`conda env list
+```conda env list
 
 # conda environments:
 
@@ -33,7 +33,7 @@ You can confirm that you've created it with
 
 base \* C:\Users\Admin\Anaconda3
 tensorflow-gpu C:\Users\Admin\Anaconda3\envs\tensorflow-gpu
-`
+```
 
 (below are syntax templates im saving for when I need them)
 
