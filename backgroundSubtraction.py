@@ -3,7 +3,7 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
-fgbg = cv2.createBackgroundSubtractorMOG()
+fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
 
 while(1):
     ret, frame = cap.read()
@@ -16,4 +16,4 @@ while(1):
         break
 
 cap.release()
-cvs.destroyAllWindows()
+cv2.destroyAllWindows()
