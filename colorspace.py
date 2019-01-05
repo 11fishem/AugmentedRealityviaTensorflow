@@ -7,7 +7,7 @@ while(1):
 
     _, frame = cap.read()
 
-    hsv = cvs.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     lower_blue = np.array([110, 50, 50])
     upper_blue = np.array([130, 255, 255])
